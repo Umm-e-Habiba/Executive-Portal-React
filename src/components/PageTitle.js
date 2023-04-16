@@ -13,7 +13,7 @@ const PageTitle = (props) => {
             
             <Breadcrumb className="float-right mt-1 font-size-14">
                 <BreadcrumbItem>
-                    <Link to="/">Attari Admin</Link>
+                    <Link to="/">Attarii Admin</Link>
                 </BreadcrumbItem>
                 {items.map((item, index) => {
                     return item.active ? (
